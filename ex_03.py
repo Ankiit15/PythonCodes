@@ -1,13 +1,12 @@
-while True :
-    line = input('>')
-    if line[0] == '#' :
-        continue
-    if line == 'done' :
-        break
-    print(line)
-print('Done!')
+nexus = "011101110111"
+ 
+count = 0
+  
+for i in nexus: 
+    if i == '1': 
+        count = count + 1
+    
+print ("Count of 1 in program is : "
+                            +  str(count)) 
 
-x = (5, 1, 3)
-if ??? > x :
-   ...
-print(x)
+
